@@ -43,7 +43,7 @@ jobs:
        - name: Release recovery
          uses: softprops/action-gh-release@v1
          env:
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{ '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' }}
          with:
           tag_name: ${{ github.run_id }}
           name: recovery image
